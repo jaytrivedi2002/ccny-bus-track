@@ -80,11 +80,11 @@ function Login( {setToken} ) {
                 <div className="inputGroup">
                   <div className="formGroup">
                     <label htmlFor="username">Email</label>
-                    <input type="text" id="email" name="email" onChange={handleChange} />
+                    <input type="text" id="email" placeholder='email' name="email" onChange={handleChange} />
                   </div>
                   <div className="formGroup">
                     <label htmlFor="password">Password</label>
-                    <input type="password" id="password" name="password" onChange={handleChange} />
+                    <input type="password" id="password" placeholder='password' name="password" onChange={handleChange} />
                   </div>
                 </div>
                 {error && <div className="errorMessage">{error}</div>}
